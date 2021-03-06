@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiAsamblea</name>
+    </assembly>
+    <members>
+        <member name="M:ApiAsamblea.Controllers.AsambleistasController.GetAsamleistas">
+            <summary>
+            Obtener todos los asambleistas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAsamblea.Controllers.AsambleistasController.GetAsambleista(System.Int32)">
+            <summary>
+            Obtener un asambleista individual
+            </summary>
+            <param name="asambleistaId">Este es el Id del asambleista</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAsamblea.Controllers.AsambleistasController.CrearAsambleista(ApiAsamblea.Models.Dtos.AsambleistaDto)">
+            <summary>
+            Crear un nuevo asambleista
+            </summary>
+            <param name="asambleistaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAsamblea.Controllers.AsambleistasController.ActualizarAsambleista(System.Int32,ApiAsamblea.Models.Dtos.AsambleistaDto)">
+            <summary>
+            Actualizar un asambleista existente
+            </summary>
+            <param name="asambleistaId"></param>
+            <param name="asambleistaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiAsamblea.Controllers.AsambleistasController.BorrarAsambleista(System.Int32)">
+            <summary>
+            Eliminar un asambleista existente
+            </summary>
+            <param name="asambleistaId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
